@@ -1,5 +1,5 @@
 import bt_post_order from "@/BTPostOrder";
-import { tree } from "./tree";
+import { tree } from "@/factory";
 
 test("post order", function () {
   expect(bt_post_order(tree)).toEqual([
